@@ -1,4 +1,6 @@
 word: bulala
+words: 你,我,他
+
 eureka:
   instance:
 #      instanceId:
