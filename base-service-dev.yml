@@ -1,4 +1,4 @@
-word: bula
+word: bulala
 eureka:
   instance:
 #      instanceId:
@@ -18,7 +18,7 @@ spring:
     username: guest
     password: guest
 server:
-  port: 8091  
+  port: 8081  
 management:
   security:
     enabled : false
