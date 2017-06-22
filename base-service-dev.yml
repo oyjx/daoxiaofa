@@ -1,1 +1,6 @@
 word: bulajiubula
+eureka:
+  instance:
+#      instanceId:
+      hostname: localhost
+#      prefer-ip-address: true
