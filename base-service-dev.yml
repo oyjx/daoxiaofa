@@ -26,3 +26,5 @@ endpoints:
   restart:
     enabled: true
     sensitive: false 
+words: 你,我,他
+word: 你    
