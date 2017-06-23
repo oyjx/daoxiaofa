@@ -1,1 +1,25 @@
 
+
+server:
+  port: 8090
+
+#  port: ${PORT:${SERVER_PORT:0}}
+#  这个的意思是随机指定个没使用的端口
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    max-active: 8
+    max-wai: -1
+    max-idle: 8
+    min-idle: 0
+    timeout: 0
