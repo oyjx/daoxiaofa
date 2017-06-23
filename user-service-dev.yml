@@ -9,6 +9,12 @@ server:
 spring:
   application:
     name: user-service
+  rabbitmq:
+    host: localhost
+#    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
   datasource:
 #    url: jdbc:mysql://192.168.99.100:3306/test
     url: jdbc:mysql://localhost:3306/test
@@ -24,3 +30,10 @@ spring:
     max-idle: 8
     min-idle: 0
     timeout: 0
+    
+endpoints:
+  restart:
+    enabled: true
+    sensitive: false 
+    
+    
