@@ -1,7 +1,7 @@
 
 
 server:
-  port: 8093
+  port: 8090
 
 #  port: ${PORT:${SERVER_PORT:0}}
 #  这个的意思是随机指定个没使用的端口
